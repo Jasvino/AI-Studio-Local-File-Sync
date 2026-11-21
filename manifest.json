@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "AI Studio Local File Sync",
+  "version": "1.0.0",
+  "description": "Toolbar-triggered codebase tree & file paster for Google AI Studio.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://aistudio.google.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Toggle AI Studio Context"
+  }
+}
